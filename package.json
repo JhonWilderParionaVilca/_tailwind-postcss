@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-postcss",
+  "version": "1.0.0",
+  "private": "true",
+  "repository": "git@github.com:wilderPariona/_tailwind-postcss.git",
+  "author": "wilderPariona <jhon.pariona.27@unsch.edu.pe>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "postcss src/css/styles.css -o public/css/compiled.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "postcss-cli": "^8.3.1"
+  }
+}
